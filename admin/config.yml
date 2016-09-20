@@ -22,6 +22,6 @@ collections: # A list of collections the CMS should be able to edit
         label: "General settings"
         file: "_settings/general.json"
         fields:
-        - {label: "Title", name: "title", widget: "string"}
-	- {label: "ISBN", name: "isbn", widget: "number"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "ISBN", name: "isbn", widget: "number"}
 
