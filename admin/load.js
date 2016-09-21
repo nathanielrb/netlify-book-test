@@ -21,4 +21,4 @@ if(!book)
 
 
 
-document.write("<base href='/netbook/" + book + "/' />");
+document.write("<base href='/netbook/_books/" + book + "/' />");
