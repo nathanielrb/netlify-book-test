@@ -16,9 +16,7 @@ var params = parseQueryString();
 var book = params["b"];
 
 
-if(!book)
-    alert("no book chosen.")
-
-
-
-document.write("<base href='/netbook/_books/" + book + "/' />");
+if(book)
+  document.write("<base href='/netbook/_books/" + book + "/' />");
+else
+  document.write("<base href='/netbook/admin/' />");

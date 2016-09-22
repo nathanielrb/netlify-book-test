@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - name: "general"
         label: "General settings"
-        file: "_settings/general.json"
+        file: "_books/book1.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "ISBN", name: "isbn", widget: "number"}
