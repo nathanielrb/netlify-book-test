@@ -15,7 +15,24 @@
   <script src="load.js">
   </script>
 
+  <script src="/netbook/admin/medium-editor.min.js"></script>
+  <link rel="stylesheet" href="/netbook/admin/medium-editor.min.css">
+
+
   <script src="/netbook/admin/vendor.js"></script>
   <script src="/netbook/admin/cms.js"></script>
+
+  
+
+  
+  <script type="text/x-handlebars" data-template-name='components/widgets/markdown-control'>
+    <div class="form-group">
+      <div class="editable">
+	<label>{{widget.label}}</label>
+	{{input value=raw_value class="form-control"}}
+      </div>
+      <script>var editor = new MediumEditor('.editable');</script>
+    </div>
+  </script>
 </body>
 </html>
