@@ -25,14 +25,15 @@
   
 
   
-  <script type="text/x-handlebars" data-template-name='components/widgets/markdown-control'>
+  <script type="text/x-handlebars" data-template-name="components/widgets/html-control">
     <div class="form-group">
       <div class="editable">
 	<label>{{widget.label}}</label>
 	{{input value=raw_value class="form-control"}}
       </div>
-      <script>var editor = new MediumEditor('.editable');</script>
     </div>
   </script>
+
+  <script>var editor = new MediumEditor('.editable');</script>
 </body>
 </html>
