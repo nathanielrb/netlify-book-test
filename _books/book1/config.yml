@@ -1,6 +1,7 @@
 backend:
-  name: netlify-api
-  url: http://localhost:8080
+  name: github
+  repo: nathanielrb/netlify-book-test # Path to your Github repository
+  branch: master # Branch to update (master by default)
 
 #  repo: nathanielrb/netbook # Path to your Github repository
 #  branch: master # Branch to update (master by default)

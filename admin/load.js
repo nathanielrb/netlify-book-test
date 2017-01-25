@@ -17,6 +17,6 @@ var book = params["b"];
 
 
 if(book)
-  document.write("<base href='/netbook/_books/" + book + "/' />");
+  document.write("<base href='/netbook2/_books/" + book + "/' />");
 else
-  document.write("<base href='/netbook/admin/' />");
+  document.write("<base href='/netbook2/admin/' />");
